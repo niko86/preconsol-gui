@@ -2,7 +2,7 @@
 name = "preconsol-gui"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["niko86 <287100+niko86@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "preconsol_gui"}]
 
@@ -14,6 +14,7 @@ matplotlib = "^3.6.2"
 scipy = "^1.9.3"
 kneed = "^0.8.1"
 pyside6 = "^6.4.1"
+python-ags4 = "^0.4.1"
 
 
 [build-system]
