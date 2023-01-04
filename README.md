@@ -6,6 +6,16 @@ A simple GUI application to estimate preconsolidation pressure using the casagra
 
 The red scatter points represent draggable handles which allow interactive adjustment of the maximum curviture and straightest line points.
 
+## Installation
+
+Required libraries can be installed from the `requirements.txt` or `poetry.lock` files in this repo. The required python version for these files is `3.11`, this is the version I have installed and confirmed to work.
+
+```python
+pip install -r "requirements.txt"
+```
+
+If you use a different version of python installation of the libraries credited below individually should work, however, incompatible versions may be determined by `pip`. 
+
 ## Credits
 
 * [NumPy](https://numpy.org) NumPy is the fundamental package for scientific computing in Python.
