@@ -121,11 +121,7 @@ class Casagrande_PreConsolidation:
         self._determine_peak_slope()
         self._calculate_preconsolidation()
 
-        self._spline_curve, = self._ax.plot(
-            self._full_range_linspace, 
-            self._spline(np.log10(self._full_range_linspace)), 
-            color='blue', label='spline_curve',
-        )
+        self._spline_curve, = self._ax.plot(self._full_range_linspace, self._spline(np.log10(self._full_range_linspace)), color='blue', label='spline_curve',)
         self._straightest_line, = self._ax.plot(
             [self._asc_axial_loads[0], self._asc_axial_loads[-1]], 
             [self._straight_line_function(self._asc_axial_loads[0]), self._straight_line_function(self._asc_axial_loads[-1])], 
