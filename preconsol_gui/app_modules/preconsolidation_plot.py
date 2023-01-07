@@ -18,8 +18,9 @@ class Casagrande_PreConsolidation:
         self._figure = Figure(figsize=figsize)
         self._ax = self._figure.subplots(1, 1)
         if mpl.rcParams["backend"] == "QtAgg":
-            from matplotlib.backends.backend_qtagg import \
-                FigureCanvasQTAgg as FigureCanvas
+            from matplotlib.backends.backend_qtagg import (
+                FigureCanvasQTAgg as FigureCanvas,
+            )
 
             self._canvas = FigureCanvas(self._figure)
 
