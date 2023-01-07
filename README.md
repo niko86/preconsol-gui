@@ -1,3 +1,5 @@
+[![Black](https://github.com/niko86/preconsol-gui/actions/workflows/black.yml/badge.svg)](https://github.com/niko86/preconsol-gui/actions/workflows/black.yml)
+
 ## About
 
 A simple GUI application to estimate preconsolidation pressure using the casagrande method from AGS4 data format files.
