@@ -4,6 +4,7 @@ import matplotlib as mpl
 
 mpl.use("QtAgg")
 
+from app_modules import Casagrande_PreConsolidation, ProcessAGS
 from matplotlib.backends.backend_qtagg import NavigationToolbar2QT as NavigationToolbar
 from PySide6.QtCore import QAbstractTableModel, Qt, Signal
 from PySide6.QtWidgets import (
@@ -17,8 +18,6 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
-
-from app_modules import Casagrande_PreConsolidation, ProcessAGS
 
 
 class PreconsolidationModel(QAbstractTableModel):

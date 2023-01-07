@@ -1,4 +1,5 @@
 name: python-isort
+
 on: [push]
 
 jobs:
